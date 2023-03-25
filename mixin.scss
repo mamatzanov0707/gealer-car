@@ -1,0 +1,69 @@
+@mixin center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin start{
+  align-items: center;
+  display: flex;
+}
+
+@mixin more{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin btn{
+  padding: 15px 30px;
+  background:  #BC0209;;
+  color: $fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+@mixin btn1{
+  padding: 15px 30px;
+  background: linear-gradient(92.15deg, #474FA0 0.76%, #888FDA 120.91%);  color: $fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+@mixin btn4{
+  padding: 12px 25px;
+  background: linear-gradient(92.15deg, #474FA0 0.76%, #888FDA 120.91%);  color: $fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+@mixin btn2{
+  padding: 13px 86px;
+  background: linear-gradient(92.15deg, #474FA0 0.76%, #888FDA 120.91%);  color: $fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+@mixin btn3{
+  padding: 13px 46px;
+  background: linear-gradient(92.15deg, #FD4B0D 0.76%, #FF855A 120.91%);
+  font-size: 16px;
+  font-weight: 900;
+  color: $fff;
+}
+
+@mixin too{
+  border: 2px solid #FFFFFF;
+  padding: 13px 40px;
+  background: none;;
+  color: $fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+@mixin zoom{
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 13px 86px;
+  background: $fff;;
+  color: $sss;
+  font-size: 16px;
+  font-weight: 900;
+}
